@@ -9,6 +9,12 @@ cask "playgraph" do
 
   app "playgraph.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/playgraph.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/md.playgraph",
   ]
