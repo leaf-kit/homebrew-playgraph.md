@@ -7,7 +7,7 @@ class Playgraph < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/leaf-kit/playgraph.md/releases/download/v0.1.0/playgraph-0.1.0-x86_64-darwin.tar.gz"
-      sha256 "82e69be7855a4607f18d19d2b59d9e9bb9117db9b38aa77d1b6914c098d3e988"
+      sha256 "afdb2bfb8c8e2f696d327f4c70cd8cf9d0c6180eb6aeace2fac8fa830b128a1b"
     end
   end
 
