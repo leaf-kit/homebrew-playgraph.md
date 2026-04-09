@@ -1,6 +1,6 @@
 cask "playgraph" do
-  version "0.1.0"
-  sha256 "ecd2b96cd191c5f61da4eb34b045a88a874517eab94b305fdbfefcbd53ad2047"
+  version "0.2.0"
+  sha256 "11e370e928b09f6e65ed4d01daf3a3e27592586c32db6f478100c0dc06b78e41"
 
   url "https://github.com/leaf-kit/playgraph.md/releases/download/v#{version}/playgraph-#{version}-x86_64-darwin.app.zip"
   name "PlayGraph"
